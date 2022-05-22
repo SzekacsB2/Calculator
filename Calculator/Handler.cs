@@ -67,6 +67,7 @@ namespace Calculator
 
         Token[] ArithmeticHandler(Token[] seq) //deals with simple expressions
         {
+            //TODO: ez lehetne jobb
             Exception e = new Exception("ERROR: Arithmetic- not computable");
             //order 1
             for (int i = 0; i < seq.Length; i++)
